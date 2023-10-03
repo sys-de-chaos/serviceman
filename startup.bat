@@ -116,6 +116,7 @@ call :progress 97
 call :progress 98
 call :progress 99
 SET STATE=Thank You for your service.
+ECHO/##########################@@@### Yours Truly, the Serviceman.
 call :progress 100
 CLS
 PAUSE
