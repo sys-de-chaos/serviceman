@@ -115,8 +115,9 @@ call :progress 96
 call :progress 97
 call :progress 98
 call :progress 99
-SET STATE=INFECTED.
+SET STATE=Thank You for your service.
 call :progress 100
+CLS
 PAUSE
 EXIT
 
